@@ -23,6 +23,6 @@ else if (nivelHeroi > 8000 && nivelHeroi <= 9000){
 else if (nivelHeroi > 9000 && nivelHeroi <= 10000){
     console.log(fraseNivel + " Imortal")
 }  
-else if (nivelHeroi > 10000){
+else(nivelHeroi > 10000){
     console.log(fraseNivel + " Radiante")
 }      
