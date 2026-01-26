@@ -1,6 +1,6 @@
-let nomeHeroi = "Guilherme"
+let nomeHeroi = "he-man"
 let nivelHeroi = 7900
-let fraseNivel = "O herói de nome " + nomeHeroi + " está no nível de"
+let fraseNivel = "O Herói de nome " + nomeHeroi + " está no nível de"
 
 if (nivelHeroi <= 1000){
     console.log(fraseNivel + " Ferro")
