@@ -1,3 +1,5 @@
+// Interpolação de variaveis
+
 let id = 2
 if(id === 3){
 	getData()
@@ -20,6 +22,7 @@ function getData(){
 	console.log("Pega os dados")
     	if ( 1 < 3){
     	console.log("Número encontrado")
+        torrar("pão de forma", "Juvena")
    	}
 }
 
@@ -31,7 +34,8 @@ function sendToDataBase(){
 function checkValue (){
 
 }
-function torrar(){
-	console.log("Torrando pão")
 
+function torrar(pao, nome){
+    console.log("Torrada feita com: " + pao)
+    console.log("Pedido do: " + nome)
 }
